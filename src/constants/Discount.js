@@ -1,0 +1,1 @@
+export const SET_DISCOUNT_VALUE = 'SET_DISCOUNT_VALUE'

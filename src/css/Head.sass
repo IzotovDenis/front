@@ -1,0 +1,178 @@
+#head
+	width: 100%
+	margin-top: -1px
+	position: fixed
+	background: #FAFAFA
+	height: 50px
+	z-index: 60
+	top: 0px
+	box-shadow: 0 1px 1px 0 rgba(117,117,117,.3)
+
+#head-wrap
+	height: 50px
+	line-height: 50px
+
+.headContent 
+	width: 1060px
+	display: flex
+	margin: 0 auto
+	justify-content: space-between
+
+.logo-container
+	width: 240px
+	float: left
+	text-align: center
+	position: relative
+	.text 
+		position: absolute
+		right: 32px
+		bottom: 3px
+		font-size: 10px
+		line-height: 10px
+		color: #777777
+
+#right-side
+	float: right
+
+.head-sections
+	padding: 0px
+	margin: 0px
+	.head-section
+		float: left
+		list-style: none
+		display: inline-block
+		a, .head-label
+			display: block
+		.glyphicon
+			padding: 0px 5px
+
+#cart-wrapper
+	background-repeat: no-repeat
+	background-position: 5px
+	width: 280px
+	position: relative
+	cursor: pointer
+	z-index: 1
+	display: flex
+	.cart-name
+		text-overflow: ellipsis
+		white-space: nowrap
+		overflow: hidden
+
+.cart-icon
+	font-size: 24px
+	color: #888
+	display: flex
+	justify-content: center
+	align-items: center
+
+.cart-icon-down
+	color: #ccc
+	font-size: 14px
+	padding: 0px 5px
+
+.new-dropdown
+	position: relative
+	float: left
+	padding: 0 15px
+	height: 35px
+	line-height: 35px
+
+.cart-dropdown-list
+	padding: 0px
+	line-height: 0
+	.cart-dropdown-item
+		padding-left: 10px
+		border-bottom: 1px dashed #ccc
+		background-repeat: no-repeat
+		display: block
+		&:last-child
+			border-bottom: none
+		.cart-dropdown-left
+			float: left
+		.cart-dropdown-right
+			float: right
+		.cart-dropdown-name	
+			line-height: 30px
+			font-size: 13px
+			font-weight: bold
+			white-space: nowrap
+			text-overflow: ellipsis
+			overflow: hidden
+			&:hover
+				color: red
+		.cart-dropdown-info
+			line-height: 22px
+			display: block
+			overflow: hidden
+			padding: 3px 0px
+		.cart-dropdown-items
+			width: 55px
+			float: left
+			text-align: center
+		.cart-dropdown-amount
+			width: 143px
+			float: left
+			text-align: center
+		.cart-dropdown-controls
+			line-height: 32px
+			float: right
+			padding: 0px 15px
+			.btn
+				width: 100px
+		.cart-dropdown-info-label
+			font-size: 10px
+			text-transform: uppercase
+			display: block
+			line-height: 10px
+			color: #7d7d7d
+		.cart-dropdown-info-value
+			font-size: 15px
+			font-weight: bold
+			display: block
+			text-align: center
+
+.cart-box
+	width: 300px
+	padding: 0px 20px
+	height: 55px
+	float: right
+
+.dropdown-add-cart
+	background: #f6f5f3
+	text-align: center
+	line-height: 28px
+	cursor: pointer
+	font-size: 12px
+	.title
+		text-transform: uppercase
+		font-weight: bold
+	.glyphicon
+		padding: 0px 5px
+	&:hover
+		background: #e4eeff
+
+.cart-content
+	box-sizing: content-box
+	padding: 3px 10px
+	line-height: 39px
+	width: 195px
+	display: flex
+	justify-content: space-evenly
+	flex-direction: column
+	flex: 1
+
+.cart-name
+	line-height: 19px
+	font-size: 11px
+
+.cart-amount
+	line-height: 21px
+	font-size: 14px
+	font-weight: bold
+
+.search-wrapper 
+	height: 45px
+	line-height: 45px
+	width: 100%
+	padding: 10px 30px

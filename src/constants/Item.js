@@ -1,0 +1,6 @@
+export const SET_ITEMS = 'SET_ITEMS'
+export const FETCHING_ITEMS = 'FETCHING_ITEMS'
+export const LOAD_POPULAR_ITEMS = 'LOAD_POPULAR_ITEMS'
+export const SET_ITEM = 'SET_ITEM'
+export const CLEAR_ITEM = 'CLEAR_ITEM'
+export const FETCH_ITEM = 'FETCH_ITEM'

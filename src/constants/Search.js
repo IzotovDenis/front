@@ -1,0 +1,4 @@
+export const SEARCH = 'SEARCH'
+export const SEARCH_SUCCESS = 'SEARCH_SUCCESS'
+export const SEARCH_REQUEST = 'SEARCH_REQUEST'
+export const CLEAR_SEARCH = 'CLEAR_SEARCH'

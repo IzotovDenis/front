@@ -1,0 +1,35 @@
+@for $i from 0 through 5
+  .li-group-navigation-#{$i}
+    padding-left: $i*10px!important
+
+.li-group-navigation
+    border-bottom: 1px solid #f0f0f0
+    position: relative
+    &:first-child
+        border-top: 1px solid #f0f0f0
+    &:hover
+        background: #f6f5f3
+    a
+        display: block
+        padding: 7px 0px
+        font-size: 13px
+        font-weight: bold
+        color: #333
+
+.group-navigation-sub-box
+    .li-group-navigation
+        &:first-child
+            border-top: none
+
+.group-navigation-parent-box
+    list-style: none
+    padding-left: 0px
+
+.group-navigation-current-group
+    padding-bottom: 5px
+    border-bottom: 2px solid #f0f0f0
+
+.group-navigation-svg-folder
+    float: left
+    padding: 0px 2px
+    margin-top: 1px
